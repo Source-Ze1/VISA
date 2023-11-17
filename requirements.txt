@@ -1,0 +1,9 @@
+pyrogram
+requests
+asyncio
+telethon
+aiogram==2.14
+random_address
+pathlib
+argparse
+bs4

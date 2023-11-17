@@ -71,10 +71,10 @@ async def chk(message: types.Message):
 
     else:
       button3 = InlineKeyboardButton(text="Join",
-                                     url="https://t.me/+5uNDubPM_kpiMzJh")
+                                     url="https://t.me/UI_OS")
       keyboard_inline = InlineKeyboardMarkup().add(button3)
       return await kk.edit_text(
-        "<b> ❌ chats not allowed ❌\nTo use me for free  Join  https://t.me/+5uNDubPM_kpiMzJh </b>",
+        "<b> ❌ chats not allowed ❌\nTo use me for free  Join  https://t.me/UI_OS </b>",
         reply_markup=keyboard_inline,
         disable_web_page_preview=True)
     pass
@@ -92,7 +92,7 @@ async def chk(message: types.Message):
       except Throttled:
         keyboard_markup = types.InlineKeyboardMarkup(row_width=3)
         btns = types.InlineKeyboardButton("Take Preamium ",
-                                          url="https://t.me/+5uNDubPM_kpiMzJh")
+                                          url="https://t.me/UI_OS")
         button2 = InlineKeyboardButton(text="close", callback_data="close")
         keyboard_markup.row(btns, button2)
         return await kk.edit_text(
@@ -105,12 +105,12 @@ async def chk(message: types.Message):
                                      url="")
       keyboard_inline = InlineKeyboardMarkup().add(button3)
       return await kk.edit_text(
-        f"<b> ❌ chats not allowed ❌\nTo use me for free  Join  https://t.me/+5uNDubPM_kpiMzJh </b>",
+        f"<b> ❌ chats not allowed ❌\nTo use me for free  Join  https://t.me/UI_OS </b>",
         reply_markup=keyboard_inline,
         disable_web_page_preview=True)
   else:
     button3 = InlineKeyboardButton(text="Join",
-                                   url="https://t.me/+5uNDubPM_kpiMzJh")
+                                   url="https://t.me/UI_OS")
     keyboard_inline = InlineKeyboardMarkup().add(button3)
     return await kk.edit_text(
       f"<b> ❌ chats not allowed ❌\nTo use me for free  Join   </b>",
@@ -205,7 +205,7 @@ bank info -»<b>{bnk}</b>
 Proxy ⇾Live! ✅
  Time  ⇾<b>{toc - tic:0.4f}</b>'s
  check by ⇾<a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> [{ok(message.from_user.id)}]
-Bot by ⇾<a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
+Bot by ⇾<a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>""",
                             disable_web_page_preview=True)
       
   url2 = f"https://api.stripe.com/v1/setup_intents/{seti}/confirm"
@@ -230,7 +230,7 @@ Bot by ⇾<a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
  Proxy ⇾Live! ✅
  Time  ⇾<b>{toc - tic:0.4f}</b>'s
  check by ⇾<a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> [{ok(message.from_user.id)}]
- Bot by ⇾<a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
+ Bot by ⇾<a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>""",
                             disable_web_page_preview=True)
   elif "incorrect_number" in r2t:
       Inc = r2j["error"]["code"]
@@ -247,7 +247,7 @@ Bot by ⇾<a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
  Proxy ⇾Live! ✅
  Time  ⇾<b>{toc - tic:0.4f}</b>'s
  check by ⇾<a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> [{ok(message.from_user.id)}]
- Bot by ⇾<a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
+ Bot by ⇾<a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>""",
                             disable_web_page_preview=True)
   elif "error" in r2t:
       try:
@@ -265,7 +265,7 @@ Bin info ⇾<b>{scheme}</b>-<b>{type}</b>-<b>{brand}</b>
  Proxy ⇾ Live! ✅
  Time  ⇾ <b>{toc - tic:0.4f}</b>'s
  check by ⇾ <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> [{ok(message.from_user.id)}]
- Bot by ⇾ <a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
+ Bot by ⇾ <a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>""",
                             disable_web_page_preview=True)
       except:
           kd = r2j["error"]["code"]
@@ -282,7 +282,7 @@ Bin info ⇾<b>{scheme}</b>-<b>{type}</b>-<b>{brand}</b>
  Proxy ⇾ Live! ✅
  Time  ⇾ <b>{toc - tic:0.4f}</b>'s
  check by ⇾ <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> [{ok(message.from_user.id)}]
- Bot by ⇾ <a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
+ Bot by ⇾ <a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>""",
                             disable_web_page_preview=True)
   else:
       tic = time.perf_counter()
@@ -298,7 +298,7 @@ bank info⇾
  Proxy ⇾Live! ✅
  Time  ⇾<b>{toc - tic:0.4f}</b>'s
  check by ⇾<a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> [{ok(message.from_user.id)}]
- Bot by ⇾<a href="tg://user?id=6509622797"><b>HOLY CARDERS</b></a>""",
+ Bot by ⇾<a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>""",
                             disable_web_page_preview=True)
 
 

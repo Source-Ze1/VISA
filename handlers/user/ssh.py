@@ -1,4 +1,4 @@
-from loader import dp
+;from loader import dp
 from aiogram.dispatcher import FSMContext
 from aiogram.types import Message
 import requests
@@ -24,12 +24,12 @@ async def mas2(message: types.Message):
   m = message.from_user.id
   kc = ok(m)
   if "private" in ug:
-    if "6509622797" in kc or "PAID" in kc:
+    if "6673736816" in kc or "PAID" in kc:
       pass
 
     else:
       button3 = InlineKeyboardButton(text="Join",
-                                     url="https://t.me/+5uNDubPM_kpiMzJh")
+                                     url="https://t.me/UI_OS")
       keyboard_inline = InlineKeyboardMarkup().add(button3)
       return await kk.edit_text(
         "<b> 🚫 chats not allowed 🚫\nTo use me for free  Join   </b>",
@@ -50,7 +50,7 @@ async def mas2(message: types.Message):
       except Throttled:
         keyboard_markup = types.InlineKeyboardMarkup(row_width=3)
         btns = types.InlineKeyboardButton("Take Premium ",
-                                          url="https://t.me/+5uNDubPM_kpiMzJh")
+                                          url="https://t.me/UI_OS")
         button2 = InlineKeyboardButton(text="close", callback_data="close")
         keyboard_markup.row(btns, button2)
         return await kk.edit_text(
@@ -63,7 +63,7 @@ async def mas2(message: types.Message):
                                      url="https://t.me/srfxdz")
       keyboard_inline = InlineKeyboardMarkup().add(button3)
       return await kk.edit_text(
-        f"<b> 🚫 chats not allowed 🚫\nTo use me for free  Join  https://t.me/+5uNDubPM_kpiMzJh </b>",
+        f"<b> 🚫 chats not allowed 🚫\nTo use me for free  Join  https://t.me/UI_OS </b>",
         reply_markup=keyboard_inline,
         disable_web_page_preview=True)
   else:
@@ -71,14 +71,14 @@ async def mas2(message: types.Message):
                                    url="https://t.me/srfxdz")
     keyboard_inline = InlineKeyboardMarkup().add(button3)
     return await kk.edit_text(
-      f"<b> 🚫 chats not allowed 🚫\nTo use me for free  Join  https://t.me/+5uNDubPM_kpiMzJh </b>",
+      f"<b> 🚫 chats not allowed 🚫\nTo use me for free  Join  https://t.me/UI_OS </b>",
       reply_markup=keyboard_inline,
       disable_web_page_preview=True)
 
   await kk.edit_text("Wait gettting valid cards from your input.")
   all_cards = message.text.split('\n')
   keyboard_markup = types.InlineKeyboardMarkup(row_width=3)
-  btns = types.InlineKeyboardButton("Take Premium", url="https://t.me/+5uNDubPM_kpiMzJh")
+  btns = types.InlineKeyboardButton("Take Premium", url="https://t.me/UI_OS")
   keyboard_markup.row(btns)
 
   if len(all_cards) > 11:
@@ -143,7 +143,7 @@ Gateway-» <b>Stripe  mass </b>
 Total cards : <b>{len_cards}</b>
 <b>————Other Details————</b>
 Checked by -» <b> <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a></b>[{kc}]
-Bot by -» <b> <a href="tg://user?id=6509622797"> <b> HOLY CARDERS</b> </a> </b>
+Bot by -» <b> <a href="tg://user?id=6673736816"> <b> 𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b> </a> </b>
 Response-»\n
 """
 

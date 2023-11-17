@@ -1,4 +1,4 @@
-;from loader import dp
+from loader import dp
 from aiogram.dispatcher import FSMContext
 from aiogram.types import Message
 import requests

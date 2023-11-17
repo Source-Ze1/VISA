@@ -43,7 +43,7 @@ async def helpstr(message: types.Message):
   seconds = time.time()
   local_time = time.ctime(seconds)
   await kk.edit_text(
-    f"""<b> Hello  @{message.from_user.username} \Welcome to cc Checker bot  : {local_time} \To see all the commands send /cmds \n By the way your UserID is <code> {message.from_user.id} </code>\n Bot by: </b> <a href='https://t.me/+5uNDubPM_kpiMzJh'><b>HOLY CARDERS </b></a>""",
+    f"""<b> Hello  @{message.from_user.username} \Welcome to cc Checker bot  : {local_time} \To see all the commands send /cmds \n By the way your UserID is <code> {message.from_user.id} </code>\n Bot by: </b> <a href='https://t.me/UP_UO><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮 </b></a>""",
     disable_web_page_preview=True)
 
 

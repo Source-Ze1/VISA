@@ -81,28 +81,28 @@ uclient = JocastaClient(
 ccs = []
 
 
-@dp.message_handler(commands=["src"], commands_prefix=PREFIX)
+@dp.message_handler(commands=["scr"], commands_prefix=PREFIX)
 async def kk(message: types.Message):
   gf = await message.reply("<code>scrapping...</code>")
-  inp = message.text[len('/src '):]
+  inp = message.text[len('/scr '):]
 
   if len(inp) < 1:
     return await gf.edit_text(
-      "Incorrect data.\n Format: .scrape UI_XB 50")
+      "Incorrect data.\n Format: .scrape ui_xb 50")
   try:
     channel, amount_str = inp.split()
   except:
     return await gf.edit_text(
-      "Incorrect data.\n Format: .scrape UI_XB 50")
+      "Incorrect data.\n Format: .scrape ui_xb 50")
 
   try:
     amount = int(amount_str)
   except:
-    return await gf.edit_text("invalid amount \nFormat: .scrape UI_XB 50"
+    return await gf.edit_text("invalid amount \nFormat: .scrape ui_xb 50"
                               )
   if amount > 5000 or amount < 1:
     return await gf.edit_text(
-      "Amount must be number and under 2000.\nFormat: .scrape UI_XB 50")
+      "Amount must be number and under 2000.\nFormat: .scrape ui_xb 50")
   if 'joinchat' in channel:
     resolve = resolve_invite_link(channel)
     if all(ele is None for ele in resolve):
@@ -144,7 +144,7 @@ async def kk(message: types.Message):
 
   for cards in all_cards:
     cc, mes, ano, cvv = cards
-    kog = f'{len(all_cards)}_@UI_XB.txt'
+    kog = f'{len(all_cards)}_@ui_xb.txt'
     with open(kog, 'a') as w:
       w.write(f'{cc}|{mes}|{ano}|{cvv}' + '\n')
 
@@ -156,7 +156,7 @@ async def kk(message: types.Message):
 <b>Bin -» </b>NONE
 <b>Target -» </b>{channel}
 <b>Scrapped by -» </b><a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
-<b>Bot by -» </b><a href="tg://user?id=6673736816"><b>𐇮 𝑴𝑶𝑫𝒀 𖠮𝑺🚸𝑻𝑴𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮</b></a>🦋
+<b>Bot by -» </b><a href="tg://user?id=6673736816"><b>srfxdz</b></a>🦋
 """
     md = open(kog, "rb")
     await gf.delete()

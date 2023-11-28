@@ -7,3 +7,4 @@ random_address
 pathlib
 argparse
 bs4
+faker
